@@ -1,0 +1,68 @@
+{
+  "people": [
+    {
+      "id": "01",
+      "FirstName": "Jhon",
+      "LastName": "Ivanov",
+      "City": "NewYork",
+      "address": {
+        "street": "TimeSquare",
+        "house": 54,
+        "apartmentNumber": 11
+      },
+      "contact": {
+        "phoneNumber": "0983234234",
+        "email": "jhon@gmail.com",
+        "skype": "jhonivanov"
+      }
+    },
+    {
+      "id": "02",
+      "FirstName": "Sheena",
+      "LastName": "Reeves",
+      "City": "London",
+      "address": {
+        "street": "Downing Street",
+        "house": 33,
+        "apartmentNumber": 77
+      },
+      "contact": {
+        "phoneNumber": "0748928394",
+        "email": "sheena@gmail.com",
+        "skype": "sheenareeves"
+      }
+    },
+    {
+      "id": "03",
+      "FirstName": "Nicole",
+      "LastName": "Fox",
+      "City": "Madrid",
+      "address": {
+        "street": "Fuencarral",
+        "house": 42,
+        "apartmentNumber": 105
+      },
+      "contact": {
+        "phoneNumber": "064321234",
+        "email": "fox@gmail.com",
+        "skype": "foxfox"
+      }
+    },
+    {
+      "id": "04",
+      "FirstName": "George",
+      "LastName": "Bush",
+      "City": "Kyiv",
+      "address": {
+        "street": "Khreshchatyk",
+        "house": 21,
+        "apartmentNumber": 165
+      },
+      "contact": {
+        "phoneNumber": "044534224",
+        "email": "georgebush@gmail.com",
+        "skype": "bushgeorgebush"
+      }
+    }
+  ]
+}
