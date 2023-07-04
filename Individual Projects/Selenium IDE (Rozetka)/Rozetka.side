@@ -1,0 +1,154 @@
+{
+  "id": "4b0ecf91-8955-422c-82ae-fb2166de6532",
+  "version": "2.0",
+  "name": "Rozetka",
+  "url": "https://rozetka.com.ua",
+  "tests": [{
+    "id": "130bcca2-129f-4c1d-bc37-296a4c93355a",
+    "name": "Add product to a card",
+    "commands": [{
+      "id": "e4bdc39e-faca-4c52-a516-c61daf9c1cd5",
+      "comment": "",
+      "command": "open",
+      "target": "/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8b3c2d9-95c6-401a-b01c-24eecd928ecc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x754",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0844be28-b4bd-49b3-9353-ba8f263cf4e0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@name='search']",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "540a2fcd-51e5-497d-8ad7-08b05f9d4f04",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@name='search']",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "iphone 14 pro"
+    }, {
+      "id": "541c8d5c-abeb-4763-8368-76dc0c5bc777",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "xpath=//input[@name='search']",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "8c095f7e-a811-450e-82df-b69839f42888",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,224)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8317f2cf-0315-4aef-8f8b-d85466c8e556",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Мобільний телефон Apple iPhone 14 Pro 256GB Space Black (MQ0T3RX/A)')]",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(3) .goods-tile__title", "css:finder"],
+        ["xpath=//li[3]/rz-catalog-tile/app-goods-tile-default/div/div[2]/a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Мобільний телефон Apple iPhone 14 Pro 256GB Space Black (MQ0T3RX/A)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be673468-7cde-4e16-af51-d5efba0424d8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b27315b-c90a-47d2-9563-ab922c9714cf",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Купити')]",
+      "targets": [
+        ["css=.button--medium > .buy-button__label", "css:finder"],
+        ["xpath=//div[@id='#scrollArea']/div/div[2]/rz-product-main-info/div/div/rz-product-buy-btn/app-buy-button/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aef8b49a-d0cf-4e38-998d-4bfcbca19302",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(.,'Оформити замовлення')]",
+      "targets": [
+        ["linkText=Оформити замовлення", "linkText"],
+        ["css=.button_size_large", "css:finder"],
+        ["xpath=//a[contains(text(),'Оформити замовлення')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/ua/checkout/')]", "xpath:href"],
+        ["xpath=//rz-shopping-cart/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Оформити замовлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fac422d3-05af-468d-87ca-b9e944b97d5e",
+    "name": "Сhanging the language of the site to Russian",
+    "commands": [{
+      "id": "64a248cd-da24-47be-85c3-48dedb7544d0",
+      "comment": "",
+      "command": "open",
+      "target": "/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e68f0e57-2b65-4e6d-8fb5-e68c08fe2b5e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x754",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eae0d026-5234-40c2-9724-7c81d21973a1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=RU",
+      "targets": [
+        ["linkText=RU", "linkText"],
+        ["css=.lang__item:nth-child(1) > .lang__link", "css:finder"],
+        ["xpath=//a[contains(text(),'RU')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/')])[19]", "xpath:href"],
+        ["xpath=//rz-lang/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'RU')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2714e1c9-1266-4214-9aaf-b6a811b170ac",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["130bcca2-129f-4c1d-bc37-296a4c93355a"]
+  }],
+  "urls": ["https://rozetka.com.ua/"],
+  "plugins": []
+}
